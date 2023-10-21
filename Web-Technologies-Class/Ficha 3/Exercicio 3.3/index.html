@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 3</title>
+</head>
+<body>
+    <form>
+        <label for="inputName">Nome:</label>
+        <input type="text" placeholder="Escreva o seu Nome" minlength="3" id="inputName" required >
+        <br>
+        <label for="inputEmail">Email:</label>
+        <input type="email" placeholder="Escreva o seu Email" id="inputEmail" required >
+        <br>
+        <label for="inputIdade">Idade:</label>
+        <input type="number" placeholder="Idade" min="4" required>
+        <br>
+        <label for="inputDate">Data de Nasimento.:</label>
+        <input type="date" name="Data de nascimento">
+        <br>
+        <label for="inputNatio">Nacionalidade:</label>
+        <select name="nationality" id="inputNatio" required>
+            <option value="Português">Português</option>
+            <option value="Ingles">Inglês</option>
+            <option value="Alemão">Alemão</option>
+            <option value="Francês">Francês</option>
+        </select>
+        <br>
+        <label for="inputPassword">Password:</label>
+        <input type="password" placeholder="Password"  pattern="(?=.*[A-Z])(?=.*[a-z]).{8,}"  required title="Tem que conter pelo menos 8 Caracteres, uma letra maiúscula e uma minuscula">
+        <br>
+        <input type="submit" value="Submeter formulário">
+
+
+
+    </form>
+</body>
+</html>
