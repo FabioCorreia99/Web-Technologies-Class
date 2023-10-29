@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="https://www.webucator.com/materials/htm101/" method="post">
+        <label for="username">User name:</label>
+        <input type="text" name="username" id="username" required><br>
+        
+        <label for="pw">Password:</label>
+        <input type="password" name="pw" id="pw" required>
+        
+        <br>Gender: 
+        <input type="radio" name="gender" id="genderm" value="M">
+        <label for="genderm">Male</label>
+        <input type="radio" name="gender" id="genderf" value="F">
+        <label for="genderf">Female</label>
+        
+        <label for="terms"><br>Click to acept our terms:</label>
+        <input type="checkbox" name="terms" id="terms">
+        
+        <label for="referral"><br>Where did you hear about us?</label>
+        <select name="referral" id="referral" required>
+            <option value="0">-Please choose-</option>
+            <option value="wom">Word of Mouth</option>
+            <optgroup label="Search Engine">
+                <option value="Google">Google</option>
+                <option value="Yahoo!">Yahoo!</option>
+                <option value="MSN">MSN</option>
+            </optgroup>
+        </select>
+        
+        <label for="comments"><br>Comments: <br></label>
+        <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+
+
+        <label for="emailMe"></label>
+        <input type="hidden" name="emailMe" id="emailMe" value="Fabio1999C@gmail.com"><br>
+        
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
