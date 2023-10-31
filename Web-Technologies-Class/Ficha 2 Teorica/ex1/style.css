@@ -1,0 +1,22 @@
+.bg-black{
+    background-color: #000000;
+    text-align: justify;
+    color: #ffffff;
+}
+.odd {
+    color: #ff0000;
+}
+.even {
+    color: #0000ff;
+}
+
+header {
+    background-color: #000000;
+    color: #ff0000;
+}
+
+td{
+    background-color: #5370c3;
+    color: #ffffff;
+    text-align: right;
+}
