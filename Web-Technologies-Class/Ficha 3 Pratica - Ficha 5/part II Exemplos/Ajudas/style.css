@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    padding: 120px 80px;
+}
+.hero{
+    max-width: 1440px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.hero_paragrafh{
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    width: fit-content;
+    
+}

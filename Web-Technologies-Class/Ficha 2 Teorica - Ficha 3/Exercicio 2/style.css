@@ -1,0 +1,13 @@
+.border-01-paragrafh{
+    border-style: dotted;
+    border: 4px;
+    border-color: red;
+}
+.border-03-paragrafh{
+    border-style: solid;
+    border-color: green;
+    border: 10px;
+}
+.pseudo-class-01-link{
+    background-color: black
+}
