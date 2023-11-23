@@ -13,6 +13,10 @@ body{
     font-weight: bold;
     text-transform: uppercase;
 }
+.image{
+    align-self: center;
+    width: 465px;
+}
 .hero_paragraph{
     max-width: 589px;
     margin-top: 16px;
@@ -20,8 +24,17 @@ body{
     text-transform: lowercase;
     align-items: flex-start;
 }
-.hero_container{
-     gap: 30px;
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+.container{
+    padding: 50px;
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .hero_container_buttons{
     padding: 10px 16px;

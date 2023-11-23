@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+body{
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: light;
+}
+.hero_container_h1{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 48px;
+    max-width: 830px;
+    margin-bottom: 10px;
+}
+.words{
+    color: #CAFF33;
+}
+.hero_container_paragraph{
+    max-width: 830px;
+    color: #E4E4E7;
+    margin-bottom: 40px;
+}
+.hero_container_button{
+    color: #1c1c1c;
+    background-color: #CAFF33;
+    padding: 16px 24px;
+    border-radius: 82px;
+}

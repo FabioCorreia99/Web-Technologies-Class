@@ -1,0 +1,14 @@
+body{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+a.nav_hyperLink:hover{
+    color: #FB9300;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

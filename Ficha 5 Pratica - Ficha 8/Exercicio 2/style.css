@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/*html<{
+    font-size: calc(100vw / 1920 * 10); 
+}*/
+
+body{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.hero{
+    padding: 80px;
+}
+.hero_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
+    column-gap: 30px;
+}
+.hero_cardimage {
+    width: 295px;
+    border-radius: 20px;
+}
+.hero_cardimage:hover~.hero_cardprise{
+    color: #3562E9;
+}
+.hero_cardParagraph{
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero_cardprise{
+    margin:  0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:768px){
+    .hero{
+        padding: 40px;
+    }
+    .hero_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}

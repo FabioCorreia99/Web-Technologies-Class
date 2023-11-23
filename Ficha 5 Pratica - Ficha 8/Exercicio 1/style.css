@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+.hero{
+    padding: 80px;
+}
+
+.hero_grid{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);/* repeat - minmax()*/
+    /*não indicar o numero de rows torna o web mais responsivo*/
+    row-gap: 60px;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .hero_grid{
+    grid-template-columns: 1fr 1fr;
+    }/*hover*/
+}

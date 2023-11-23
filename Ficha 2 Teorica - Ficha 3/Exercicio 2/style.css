@@ -8,6 +8,20 @@
     border-color: green;
     border: 10px;
 }
-.pseudo-class-01-link{
-    background-color: black
+.pseudo-class-01-link:visited{
+    background-color: black;
 }
+
+.pseudo-class-01-link:link{
+    background-color: lightblue;
+}
+.pseudo-class-01-link:hover{
+    background-color: yellow;
+}
+.pseudo-class-01-link:active{
+    background-color: red;
+}
+.highlight:hover{
+    background-color: lightblue;    
+}
+
