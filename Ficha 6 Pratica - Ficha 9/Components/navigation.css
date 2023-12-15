@@ -5,7 +5,7 @@
 .navigation_wrapper {
   max-width: 144rem;
   margin: auto;
-
+    
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -45,6 +45,7 @@
 .navigation_link:hover {
   color: var(--color-purple);
   transform: scale(0.9);
+  
 }
 
 .navigation_button {
